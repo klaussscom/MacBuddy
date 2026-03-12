@@ -32,7 +32,7 @@ function SiteFooter({ content }) {
             <div>
               <div className="text-sm font-semibold text-slate-950">{footer.downloadTitle}</div>
               <div className="mt-4 grid gap-3 text-sm text-slate-600">
-                <a href={downloadUrl} className="transition hover:text-slate-950">
+                <a href={downloadUrl} download className="transition hover:text-slate-950">
                   {footer.downloadLabel}
                 </a>
                 <a href="https://macbuddy.app" className="transition hover:text-slate-950">

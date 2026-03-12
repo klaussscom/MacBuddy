@@ -49,7 +49,7 @@ function HeroSection({ content, locale, setLocale }) {
             >
               {activeLocaleLabel}
             </button>
-            <a href={downloadUrl} className="button-primary">
+            <a href={downloadUrl} download className="button-primary">
               {hero.primaryCta}
             </a>
           </nav>
@@ -68,7 +68,7 @@ function HeroSection({ content, locale, setLocale }) {
             </h1>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <a href={downloadUrl} className="button-primary text-center">
+              <a href={downloadUrl} download className="button-primary text-center">
                 {hero.primaryCta}
               </a>
               <a href="#features" className="button-secondary text-center">

@@ -24,7 +24,7 @@ function CTASection({ content }) {
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <a href={downloadUrl} className="button-primary text-center">
+              <a href={downloadUrl} download className="button-primary text-center">
                 {ctaSection.primaryCta}
               </a>
               <a href="#top" className="button-secondary text-center">

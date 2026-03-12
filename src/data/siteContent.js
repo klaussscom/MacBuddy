@@ -1,4 +1,4 @@
-export const downloadUrl = "https://macbuddy.app/downloads/MacBuddy.dmg";
+export const downloadUrl = "/downloads/MacBuddy.zip";
 
 export const siteCopy = {
   en: {
