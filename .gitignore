@@ -5,7 +5,7 @@ dist/
 *.log
 
 # macOS app bundles / binaries
-*.app/
+# *.app/
 
 # environment files
 .env
